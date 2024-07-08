@@ -1,0 +1,26 @@
+wsl -- install
+ 
+cmd or PS:  wsl -d ubuntu
+
+cmd or PS: wsl --list --online
+
+  Install Kali linux from MS Store
+  kali-tweaks
+    Metapackages - top10
+
+en linux puedo correr ping.exe o ipconfig.exe entre otros 
+explorer.exe . (mis files)
+
+en windows 
+cmd or PS: ipconfig | wsl grep 192.
+
+
+
+wsl --install "distro"
+wsl --list --verbose
+wsl --shutdown
+wsl --terminate "distro"
+wsl --set-default "distro"
+wsl --status
+wsl --unregister "distro"
+https://www.youtube.com/watch?v=vxTW22y8zV8
